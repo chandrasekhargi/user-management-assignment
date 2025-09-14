@@ -1,0 +1,76 @@
+.add-user-btn {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.save-btn {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.update-btn {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.input-field-space {
+    margin-top: 15px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.view-btn {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #257CCC;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.edit-btn {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #578138;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.user-details{
+    margin-left: 20px;
+}
+
+.bold-txt {
+    font-weight: 600;
+}
