@@ -7,7 +7,7 @@ function UserDetails() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/users/${id}`).then((res) => setUser(res.data));
+    axios.get(`https://user-management-assignment-6.onrender.com/api/users/${id}`).then((res) => setUser(res.data));
   }, [id]);
 
   if (!user) return <p className="p-6">Loading...</p>;
