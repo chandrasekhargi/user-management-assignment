@@ -5,7 +5,7 @@ import '../pages/pages.css'
 function UserCard({ user, onDelete }) {
   const handleDelete = () => {
     if (window.confirm("Are you sure you want to delete this user?")) {
-      axios.delete(`http://localhost:5000/api/users/${user._id}`).then(() => onDelete(user._id));
+      axios.delete(`https://user-management-assignment-6.onrender.com/api/users/${user._id}`).then(() => onDelete(user._id));
     }
   };
 
