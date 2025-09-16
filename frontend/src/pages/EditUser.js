@@ -42,7 +42,7 @@ function EditUser() {
         geo: { lat: form.lat, lng: form.lng }
       }
     };
-    axios.put(`http://localhost:5000/api/users/${id}`, payload).then(() => navigate("/"));
+    axios.put(`https://user-management-assignment-6.onrender.com/api/users/${id}`, payload).then(() => navigate("/"));
   };
 
   return (
