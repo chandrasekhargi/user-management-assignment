@@ -8,7 +8,7 @@ function Dashboard() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/users").then((res) => setUsers(res.data));
+    axios.get("https://user-management-assignment-6.onrender.com/api/users").then((res) => setUsers(res.data));
   }, []);
 
   const handleDelete = (id) => {
