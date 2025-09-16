@@ -10,7 +10,7 @@ function EditUser() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/users/${id}`).then((res) => {
+    axios.get(`https://user-management-assignment-6.onrender.com/api/users/${id}`).then((res) => {
       const u = res.data;
       setForm({
         name: u.name,
