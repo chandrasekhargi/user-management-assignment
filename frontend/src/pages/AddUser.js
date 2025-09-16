@@ -24,7 +24,7 @@ function AddUser() {
         geo: { lat: form.lat, lng: form.lng }
       }
     };
-    axios.post("http://localhost:5000/api/users", payload).then(() => navigate("/"));
+    axios.post("http://localhost:5000/api/users", payload).then(() => navigate("https://user-management-assignment-front-4.onrender.com"));
   };
 
   return (
